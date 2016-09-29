@@ -1,0 +1,20 @@
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\First_Game.exe
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\First_Game.pdb
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.dll
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.xml
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+G:\Programs\C#\First Game\First Game\First_Game\obj\x86\Debug\First_Game.csprojResolveAssemblyReference.cache
+G:\Programs\C#\First Game\First Game\First_Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+G:\Programs\C#\First Game\First Game\First_Game\obj\x86\Debug\First_Game.exe
+G:\Programs\C#\First Game\First Game\First_Game\obj\x86\Debug\First_Game.pdb
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Car.xnb
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Metallic Texture_0.xnb
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Black_0.xnb
+G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Tire Texture_0.xnb

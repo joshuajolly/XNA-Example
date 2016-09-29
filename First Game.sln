@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First_Game", "First Game\First_Game\First_Game.csproj", "{AA9BD714-F280-425C-867D-55ECCBA43B95}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "First_GameContent", "First Game\First_GameContent\First_GameContent.contentproj", "{271B2E12-D15D-46E5-BF29-47136539DAE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA9BD714-F280-425C-867D-55ECCBA43B95}.Debug|x86.ActiveCfg = Debug|x86
+		{AA9BD714-F280-425C-867D-55ECCBA43B95}.Debug|x86.Build.0 = Debug|x86
+		{AA9BD714-F280-425C-867D-55ECCBA43B95}.Release|x86.ActiveCfg = Release|x86
+		{AA9BD714-F280-425C-867D-55ECCBA43B95}.Release|x86.Build.0 = Release|x86
+		{271B2E12-D15D-46E5-BF29-47136539DAE3}.Debug|x86.ActiveCfg = Debug|x86
+		{271B2E12-D15D-46E5-BF29-47136539DAE3}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

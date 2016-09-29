@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Car.fbx</Source>
+      <Name>Car</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Car.xnb</Output>
+      <Time>2016-09-29T02:46:06.1482078-07:00</Time>
+      <Dependency>
+        <Key>G:\Programs\C#\First Game\First Game\First_Game\obj\x86\Debug\Car_0.xml</Key>
+        <Value>2016-09-29T02:46:14.1475851-07:00</Value>
+      </Dependency>
+      <Request>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Metallic Texture_0.xnb</Request>
+      <Request>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Black_0.xnb</Request>
+      <Request>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Tire Texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Car.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>G:\Programs\C#\First Game\First Game\First_Game\obj\x86\Debug\Car_0.xml</Output>
+      <Time>2016-09-29T02:46:06.1482078-07:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\Silliman\Documents\Tutorials\Textures\Metallic Texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Metallic Texture_0.xnb</Output>
+      <Time>2016-09-29T02:43:07.2062714-07:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\Silliman\Documents\Feeding Frenzy\Textures\Black.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Black_0.xnb</Output>
+      <Time>2016-09-29T02:43:57.3791934-07:00</Time>
+    </Item>
+    <Item>
+      <Source>C:\Users\Silliman\Documents\Tutorials\Textures\Tire Texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Tire Texture_0.xnb</Output>
+      <Time>2016-09-29T02:43:50.3518447-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{271B2E12-D15D-46E5-BF29-47136539DAE3}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>G:\Programs\C#\First Game\First Game\First_GameContent\</RootDirectory>
+      <LoggerRootDirectory>G:\Programs\C#\First Game\First Game\First_Game\</LoggerRootDirectory>
+      <IntermediateDirectory>G:\Programs\C#\First Game\First Game\First_Game\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2016-09-28T22:44:48.1591382-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
