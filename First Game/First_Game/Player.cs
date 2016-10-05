@@ -78,6 +78,10 @@ namespace First_Game
 
 		public void rotateWheels()
 		{
+			model.Bones[2].Transform = Matrix.CreateRotationX(wheelRotation) * Matrix.CreateTranslation(model.Bones[2].Transform.Translation);//translate before trotatie
+			model.Bones[10].Transform = Matrix.CreateRotationX(wheelRotation) * Matrix.CreateTranslation(model.Bones[10].Transform.Translation);//translate before trotatie
+			model.Bones[9].Transform = Matrix.CreateRotationX(wheelRotation) * Matrix.CreateTranslation(model.Bones[9].Transform.Translation);//translate before trotatie
+			model.Bones[8].Transform = Matrix.CreateRotationX(wheelRotation) * Matrix.CreateTranslation(model.Bones[8].Transform.Translation);//translate before trotatie
 		}
 
 		public bool processCollisions(BoundingBox otherBox,float DX, float DZ)
