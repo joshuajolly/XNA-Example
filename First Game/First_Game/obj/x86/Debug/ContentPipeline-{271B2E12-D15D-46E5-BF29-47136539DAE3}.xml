@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
       <Source>Car.fbx</Source>
@@ -7,70 +7,39 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Car.xnb</Output>
-      <Time>2016-09-29T02:46:06.1482078-07:00</Time>
+      <Output>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Content\Car.xnb</Output>
+      <Time>2016-09-29T17:20:24.7197811-07:00</Time>
       <Dependency>
-        <Key>G:\Programs\C#\First Game\First Game\First_Game\obj\x86\Debug\Car_0.xml</Key>
-        <Value>2016-09-29T02:46:14.1475851-07:00</Value>
+        <Key>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\obj\x86\Debug\Car_0.xml</Key>
+        <Value>2016-09-29T17:20:27.2780132-07:00</Value>
       </Dependency>
-      <Request>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Metallic Texture_0.xnb</Request>
-      <Request>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Black_0.xnb</Request>
-      <Request>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Tire Texture_0.xnb</Request>
     </Item>
     <Item>
       <Source>Car.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>G:\Programs\C#\First Game\First Game\First_Game\obj\x86\Debug\Car_0.xml</Output>
-      <Time>2016-09-29T02:46:06.1482078-07:00</Time>
+      <Output>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\obj\x86\Debug\Car_0.xml</Output>
+      <Time>2016-09-29T17:20:24.7197811-07:00</Time>
     </Item>
     <Item>
-      <Source>C:\Users\Silliman\Documents\Tutorials\Textures\Metallic Texture.png</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
+      <Source>Bullet.fbx</Source>
+      <Name>Bullet</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Metallic Texture_0.xnb</Output>
-      <Time>2016-09-29T02:43:07.2062714-07:00</Time>
+      <Output>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Content\Bullet.xnb</Output>
+      <Time>2016-09-29T18:17:33.1264631-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\obj\x86\Debug\Bullet_0.xml</Key>
+        <Value>2016-09-29T18:17:35.4705972-07:00</Value>
+      </Dependency>
     </Item>
     <Item>
-      <Source>C:\Users\Silliman\Documents\Feeding Frenzy\Textures\Black.png</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Black_0.xnb</Output>
-      <Time>2016-09-29T02:43:57.3791934-07:00</Time>
-    </Item>
-    <Item>
-      <Source>C:\Users\Silliman\Documents\Tutorials\Textures\Tire Texture.png</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Tire Texture_0.xnb</Output>
-      <Time>2016-09-29T02:43:50.3518447-07:00</Time>
+      <Source>Bullet.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\obj\x86\Debug\Bullet_0.xml</Output>
+      <Time>2016-09-29T18:17:33.1264631-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -79,10 +48,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>G:\Programs\C#\First Game\First Game\First_GameContent\</RootDirectory>
-      <LoggerRootDirectory>G:\Programs\C#\First Game\First Game\First_Game\</LoggerRootDirectory>
-      <IntermediateDirectory>G:\Programs\C#\First Game\First Game\First_Game\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_GameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -111,7 +80,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2016-09-28T22:44:48.1591382-07:00</Value>
+        <Value>2016-09-28T04:20:52.0862831-07:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

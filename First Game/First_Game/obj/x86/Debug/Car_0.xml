@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>G:\Programs\C#\First Game\First Game\First_GameContent\Car.fbx</SourceFilename>
+      <SourceFilename>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_GameContent\Car.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -226,261 +226,184 @@
   </Asset>
   <Resources>
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
-      <Name>None__Metallic_Texture_png</Name>
+      <Name>Default - Lambert</Name>
       <Identity>
-        <SourceFilename>G:\Programs\C#\First Game\First Game\First_GameContent\Car.fbx</SourceFilename>
-        <SourceTool>FbxImporter</SourceTool>
-      </Identity>
-      <OpaqueData>
-        <Data Key="DiffuseColor" Type="Framework:Vector3">0.640000045 0.640000045 0.640000045</Data>
-        <Data Key="EmissiveColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
-        <Data Key="Alpha" Type="float">1</Data>
-        <Data Key="SpecularColor" Type="Framework:Vector3">0.5 0.5 0.5</Data>
-        <Data Key="SpecularPower" Type="float">12.3</Data>
-      </OpaqueData>
-      <Textures>
-        <Texture Key="Texture">
-          <OpaqueData>
-            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
-          </OpaqueData>
-          <Reference>#External1</Reference>
-        </Texture>
-      </Textures>
-    </Resource>
-    <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
-      <Name>None__Black_png</Name>
-      <Identity>
-        <SourceFilename>G:\Programs\C#\First Game\First Game\First_GameContent\Car.fbx</SourceFilename>
-        <SourceTool>FbxImporter</SourceTool>
-      </Identity>
-      <OpaqueData>
-        <Data Key="DiffuseColor" Type="Framework:Vector3">0.640000045 0.640000045 0.640000045</Data>
-        <Data Key="EmissiveColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
-        <Data Key="Alpha" Type="float">1</Data>
-        <Data Key="SpecularColor" Type="Framework:Vector3">0.5 0.5 0.5</Data>
-        <Data Key="SpecularPower" Type="float">12.3</Data>
-      </OpaqueData>
-      <Textures>
-        <Texture Key="Texture">
-          <OpaqueData>
-            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
-          </OpaqueData>
-          <Reference>#External2</Reference>
-        </Texture>
-      </Textures>
-    </Resource>
-    <Resource ID="#Resource3" Type="Graphics:BasicMaterialContent">
-      <Name>None__Tire_Texture_png</Name>
-      <Identity>
-        <SourceFilename>G:\Programs\C#\First Game\First Game\First_GameContent\Car.fbx</SourceFilename>
-        <SourceTool>FbxImporter</SourceTool>
-      </Identity>
-      <OpaqueData>
-        <Data Key="DiffuseColor" Type="Framework:Vector3">0.640000045 0.640000045 0.640000045</Data>
-        <Data Key="EmissiveColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
-        <Data Key="Alpha" Type="float">1</Data>
-        <Data Key="SpecularColor" Type="Framework:Vector3">0.5 0.5 0.5</Data>
-        <Data Key="SpecularPower" Type="float">12.3</Data>
-      </OpaqueData>
-      <Textures>
-        <Texture Key="Texture">
-          <OpaqueData>
-            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
-          </OpaqueData>
-          <Reference>#External3</Reference>
-        </Texture>
-      </Textures>
-    </Resource>
-    <Resource ID="#Resource4" Type="Graphics:BasicMaterialContent">
-      <Name>None__Metallic_Texture_png</Name>
-      <Identity>
-        <SourceFilename>G:\Programs\C#\First Game\First Game\First_GameContent\Car.fbx</SourceFilename>
-        <SourceTool>FbxImporter</SourceTool>
-      </Identity>
-      <OpaqueData>
-        <Data Key="DiffuseColor" Type="Framework:Vector3">0.640000045 0.640000045 0.640000045</Data>
-        <Data Key="EmissiveColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
-        <Data Key="Alpha" Type="float">1</Data>
-        <Data Key="SpecularColor" Type="Framework:Vector3">0.5 0.5 0.5</Data>
-        <Data Key="SpecularPower" Type="float">12.3</Data>
-      </OpaqueData>
-      <Textures>
-        <Texture Key="Texture">
-          <OpaqueData>
-            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
-          </OpaqueData>
-          <Reference>#External1</Reference>
-        </Texture>
-      </Textures>
-    </Resource>
-    <Resource ID="#Resource5" Type="Graphics:BasicMaterialContent">
-      <Name>None__Metallic_Texture_png</Name>
-      <Identity>
-        <SourceFilename>G:\Programs\C#\First Game\First Game\First_GameContent\Car.fbx</SourceFilename>
-        <SourceTool>FbxImporter</SourceTool>
-      </Identity>
-      <OpaqueData>
-        <Data Key="DiffuseColor" Type="Framework:Vector3">0.640000045 0.640000045 0.640000045</Data>
-        <Data Key="EmissiveColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
-        <Data Key="Alpha" Type="float">1</Data>
-        <Data Key="SpecularColor" Type="Framework:Vector3">0.5 0.5 0.5</Data>
-        <Data Key="SpecularPower" Type="float">12.3</Data>
-      </OpaqueData>
-      <Textures>
-        <Texture Key="Texture">
-          <OpaqueData>
-            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
-          </OpaqueData>
-          <Reference>#External1</Reference>
-        </Texture>
-      </Textures>
-    </Resource>
-    <Resource ID="#Resource6" Type="Graphics:BasicMaterialContent">
-      <Name>Material__Army_png</Name>
-      <Identity>
-        <SourceFilename>G:\Programs\C#\First Game\First Game\First_GameContent\Car.fbx</SourceFilename>
+        <SourceFilename>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_GameContent\Car.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
         <Data Key="Effect">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;Trait Data="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\VsGraphics\Assets\Effects\Lambert.dgsl" Desc="" Flags="9240" Id="Effect" Name="Effect" Type="9" Vis="1" xmlns="Trait" /&gt;</Data>
-        <Data Key="MaterialAmbient" Type="Framework:Vector4">1 1 1 1</Data>
-        <Data Key="MaterialDiffuse" Type="Framework:Vector4">0.640000045 0.640000045 0.640000045 1</Data>
+&lt;Trait Data="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\VsGraphics\Assets\Effects\Lambert.dgsl" Desc="" Flags="9240" Id="Effect" Name="Effect" Type="9" Vis="1" xmlns="Trait" /&gt;</Data>
+        <Data Key="MaterialAmbient" Type="Framework:Vector4">0 0 0 0</Data>
+        <Data Key="MaterialDiffuse" Type="Framework:Vector4">1 1 1 1</Data>
         <Data Key="Texture1">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;Trait Data="C:\Users\Silliman\Documents\Tutorials\Textures\Army.png" Desc="" Flags="8200" Id="Texture1" Name="Texture1" Type="9" Vis="4" xmlns="Trait" /&gt;</Data>
-        <Data Key="transparencyFactor" Type="float">0</Data>
+&lt;Trait Data="" Desc="" Flags="8200" Id="Texture1" Name="Texture1" Type="9" Vis="4" xmlns="Trait" /&gt;</Data>
+      </OpaqueData>
+    </Resource>
+    <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
+      <Name>None__Black_png</Name>
+      <Identity>
+        <SourceFilename>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_GameContent\Car.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="Effect">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\VsGraphics\Assets\Effects\Lambert.dgsl" Desc="" Flags="9240" Id="Effect" Name="Effect" Type="9" Vis="1" xmlns="Trait" /&gt;</Data>
+        <Data Key="MaterialAmbient" Type="Framework:Vector4">0 0 0 0</Data>
+        <Data Key="MaterialDiffuse" Type="Framework:Vector4">1 1 1 1</Data>
+        <Data Key="Texture1">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="" Desc="" Flags="8200" Id="Texture1" Name="Texture1" Type="9" Vis="4" xmlns="Trait" /&gt;</Data>
+      </OpaqueData>
+    </Resource>
+    <Resource ID="#Resource3" Type="Graphics:BasicMaterialContent">
+      <Name>None__Tire_Texture_png</Name>
+      <Identity>
+        <SourceFilename>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_GameContent\Car.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="Effect">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\VsGraphics\Assets\Effects\Lambert.dgsl" Desc="" Flags="9240" Id="Effect" Name="Effect" Type="9" Vis="1" xmlns="Trait" /&gt;</Data>
+        <Data Key="MaterialAmbient" Type="Framework:Vector4">0 0 0 0</Data>
+        <Data Key="MaterialDiffuse" Type="Framework:Vector4">1 1 1 1</Data>
+        <Data Key="Texture1">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="" Desc="" Flags="8200" Id="Texture1" Name="Texture1" Type="9" Vis="4" xmlns="Trait" /&gt;</Data>
+      </OpaqueData>
+    </Resource>
+    <Resource ID="#Resource4" Type="Graphics:BasicMaterialContent">
+      <Name>None__Metallic_Texture_png</Name>
+      <Identity>
+        <SourceFilename>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_GameContent\Car.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="Effect">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\VsGraphics\Assets\Effects\Lambert.dgsl" Desc="" Flags="9240" Id="Effect" Name="Effect" Type="9" Vis="1" xmlns="Trait" /&gt;</Data>
+        <Data Key="MaterialAmbient" Type="Framework:Vector4">0 0 0 0</Data>
+        <Data Key="MaterialDiffuse" Type="Framework:Vector4">1 1 1 1</Data>
+        <Data Key="Texture1">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="" Desc="" Flags="8200" Id="Texture1" Name="Texture1" Type="9" Vis="4" xmlns="Trait" /&gt;</Data>
+      </OpaqueData>
+    </Resource>
+    <Resource ID="#Resource5" Type="Graphics:BasicMaterialContent">
+      <Name>Default - Lambert</Name>
+      <Identity>
+        <SourceFilename>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_GameContent\Car.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="Effect">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\VsGraphics\Assets\Effects\Lambert.dgsl" Desc="" Flags="9240" Id="Effect" Name="Effect" Type="9" Vis="1" xmlns="Trait" /&gt;</Data>
+        <Data Key="MaterialAmbient" Type="Framework:Vector4">0 0 0 0</Data>
+        <Data Key="MaterialDiffuse" Type="Framework:Vector4">1 1 1 1</Data>
+        <Data Key="Texture1">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="" Desc="" Flags="8200" Id="Texture1" Name="Texture1" Type="9" Vis="4" xmlns="Trait" /&gt;</Data>
+      </OpaqueData>
+    </Resource>
+    <Resource ID="#Resource6" Type="Graphics:BasicMaterialContent">
+      <Name>Default - Lambert</Name>
+      <Identity>
+        <SourceFilename>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_GameContent\Car.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="Effect">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\VsGraphics\Assets\Effects\Lambert.dgsl" Desc="" Flags="9240" Id="Effect" Name="Effect" Type="9" Vis="1" xmlns="Trait" /&gt;</Data>
+        <Data Key="MaterialAmbient" Type="Framework:Vector4">0 0 0 0</Data>
+        <Data Key="MaterialDiffuse" Type="Framework:Vector4">1 1 1 1</Data>
+        <Data Key="Texture1">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="" Desc="" Flags="8200" Id="Texture1" Name="Texture1" Type="9" Vis="4" xmlns="Trait" /&gt;</Data>
       </OpaqueData>
     </Resource>
     <Resource ID="#Resource7" Type="Graphics:BasicMaterialContent">
       <Name>Material__Black_png</Name>
       <Identity>
-        <SourceFilename>G:\Programs\C#\First Game\First Game\First_GameContent\Car.fbx</SourceFilename>
+        <SourceFilename>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_GameContent\Car.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
         <Data Key="Effect">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;Trait Data="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\VsGraphics\Assets\Effects\Lambert.dgsl" Desc="" Flags="9240" Id="Effect" Name="Effect" Type="9" Vis="1" xmlns="Trait" /&gt;</Data>
-        <Data Key="MaterialAmbient" Type="Framework:Vector4">1 1 1 1</Data>
-        <Data Key="MaterialDiffuse" Type="Framework:Vector4">0.640000045 0.640000045 0.640000045 1</Data>
+&lt;Trait Data="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\VsGraphics\Assets\Effects\Lambert.dgsl" Desc="" Flags="9240" Id="Effect" Name="Effect" Type="9" Vis="1" xmlns="Trait" /&gt;</Data>
+        <Data Key="MaterialAmbient" Type="Framework:Vector4">0 0 0 0</Data>
+        <Data Key="MaterialDiffuse" Type="Framework:Vector4">1 1 1 1</Data>
         <Data Key="Texture1">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;Trait Data="C:\Users\Silliman\Documents\Feeding Frenzy\Textures\Black.png" Desc="" Flags="8200" Id="Texture1" Name="Texture1" Type="9" Vis="4" xmlns="Trait" /&gt;</Data>
-        <Data Key="transparencyFactor" Type="float">0</Data>
+&lt;Trait Data="" Desc="" Flags="8200" Id="Texture1" Name="Texture1" Type="9" Vis="4" xmlns="Trait" /&gt;</Data>
       </OpaqueData>
     </Resource>
     <Resource ID="#Resource8" Type="Graphics:BasicMaterialContent">
-      <Name>None__Metallic_Texture_png</Name>
+      <Name>Default - Lambert</Name>
       <Identity>
-        <SourceFilename>G:\Programs\C#\First Game\First Game\First_GameContent\Car.fbx</SourceFilename>
+        <SourceFilename>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_GameContent\Car.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
-        <Data Key="DiffuseColor" Type="Framework:Vector3">0.640000045 0.640000045 0.640000045</Data>
-        <Data Key="EmissiveColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
-        <Data Key="Alpha" Type="float">1</Data>
-        <Data Key="SpecularColor" Type="Framework:Vector3">0.5 0.5 0.5</Data>
-        <Data Key="SpecularPower" Type="float">12.3</Data>
+        <Data Key="Effect">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\VsGraphics\Assets\Effects\Lambert.dgsl" Desc="" Flags="9240" Id="Effect" Name="Effect" Type="9" Vis="1" xmlns="Trait" /&gt;</Data>
+        <Data Key="MaterialAmbient" Type="Framework:Vector4">0 0 0 0</Data>
+        <Data Key="MaterialDiffuse" Type="Framework:Vector4">1 1 1 1</Data>
+        <Data Key="Texture1">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="" Desc="" Flags="8200" Id="Texture1" Name="Texture1" Type="9" Vis="4" xmlns="Trait" /&gt;</Data>
       </OpaqueData>
-      <Textures>
-        <Texture Key="Texture">
-          <OpaqueData>
-            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
-          </OpaqueData>
-          <Reference>#External1</Reference>
-        </Texture>
-      </Textures>
     </Resource>
     <Resource ID="#Resource9" Type="Graphics:BasicMaterialContent">
       <Name>None__Metallic_Texture_png</Name>
       <Identity>
-        <SourceFilename>G:\Programs\C#\First Game\First Game\First_GameContent\Car.fbx</SourceFilename>
+        <SourceFilename>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_GameContent\Car.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
-        <Data Key="DiffuseColor" Type="Framework:Vector3">0.640000045 0.640000045 0.640000045</Data>
-        <Data Key="EmissiveColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
-        <Data Key="Alpha" Type="float">1</Data>
-        <Data Key="SpecularColor" Type="Framework:Vector3">0.5 0.5 0.5</Data>
-        <Data Key="SpecularPower" Type="float">12.3</Data>
+        <Data Key="Effect">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\VsGraphics\Assets\Effects\Lambert.dgsl" Desc="" Flags="9240" Id="Effect" Name="Effect" Type="9" Vis="1" xmlns="Trait" /&gt;</Data>
+        <Data Key="MaterialAmbient" Type="Framework:Vector4">0 0 0 0</Data>
+        <Data Key="MaterialDiffuse" Type="Framework:Vector4">1 1 1 1</Data>
+        <Data Key="Texture1">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="" Desc="" Flags="8200" Id="Texture1" Name="Texture1" Type="9" Vis="4" xmlns="Trait" /&gt;</Data>
       </OpaqueData>
-      <Textures>
-        <Texture Key="Texture">
-          <OpaqueData>
-            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
-          </OpaqueData>
-          <Reference>#External1</Reference>
-        </Texture>
-      </Textures>
     </Resource>
     <Resource ID="#Resource10" Type="Graphics:BasicMaterialContent">
       <Name>None__Tire_Texture_png</Name>
       <Identity>
-        <SourceFilename>G:\Programs\C#\First Game\First Game\First_GameContent\Car.fbx</SourceFilename>
+        <SourceFilename>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_GameContent\Car.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
-        <Data Key="DiffuseColor" Type="Framework:Vector3">0.640000045 0.640000045 0.640000045</Data>
-        <Data Key="EmissiveColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
-        <Data Key="Alpha" Type="float">1</Data>
-        <Data Key="SpecularColor" Type="Framework:Vector3">0.5 0.5 0.5</Data>
-        <Data Key="SpecularPower" Type="float">12.3</Data>
+        <Data Key="Effect">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\VsGraphics\Assets\Effects\Lambert.dgsl" Desc="" Flags="9240" Id="Effect" Name="Effect" Type="9" Vis="1" xmlns="Trait" /&gt;</Data>
+        <Data Key="MaterialAmbient" Type="Framework:Vector4">0 0 0 0</Data>
+        <Data Key="MaterialDiffuse" Type="Framework:Vector4">1 1 1 1</Data>
+        <Data Key="Texture1">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="" Desc="" Flags="8200" Id="Texture1" Name="Texture1" Type="9" Vis="4" xmlns="Trait" /&gt;</Data>
       </OpaqueData>
-      <Textures>
-        <Texture Key="Texture">
-          <OpaqueData>
-            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
-          </OpaqueData>
-          <Reference>#External3</Reference>
-        </Texture>
-      </Textures>
     </Resource>
     <Resource ID="#Resource11" Type="Graphics:BasicMaterialContent">
-      <Name>None__Tire_Texture_png</Name>
+      <Name>Default - Lambert</Name>
       <Identity>
-        <SourceFilename>G:\Programs\C#\First Game\First Game\First_GameContent\Car.fbx</SourceFilename>
+        <SourceFilename>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_GameContent\Car.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
-        <Data Key="DiffuseColor" Type="Framework:Vector3">0.640000045 0.640000045 0.640000045</Data>
-        <Data Key="EmissiveColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
-        <Data Key="Alpha" Type="float">1</Data>
-        <Data Key="SpecularColor" Type="Framework:Vector3">0.5 0.5 0.5</Data>
-        <Data Key="SpecularPower" Type="float">12.3</Data>
+        <Data Key="Effect">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\VsGraphics\Assets\Effects\Lambert.dgsl" Desc="" Flags="9240" Id="Effect" Name="Effect" Type="9" Vis="1" xmlns="Trait" /&gt;</Data>
+        <Data Key="MaterialAmbient" Type="Framework:Vector4">0 0 0 0</Data>
+        <Data Key="MaterialDiffuse" Type="Framework:Vector4">1 1 1 1</Data>
+        <Data Key="Texture1">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="" Desc="" Flags="8200" Id="Texture1" Name="Texture1" Type="9" Vis="4" xmlns="Trait" /&gt;</Data>
       </OpaqueData>
-      <Textures>
-        <Texture Key="Texture">
-          <OpaqueData>
-            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
-          </OpaqueData>
-          <Reference>#External3</Reference>
-        </Texture>
-      </Textures>
     </Resource>
     <Resource ID="#Resource12" Type="Graphics:BasicMaterialContent">
-      <Name>None__Tire_Texture_png</Name>
+      <Name>Default - Lambert</Name>
       <Identity>
-        <SourceFilename>G:\Programs\C#\First Game\First Game\First_GameContent\Car.fbx</SourceFilename>
+        <SourceFilename>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_GameContent\Car.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
-        <Data Key="DiffuseColor" Type="Framework:Vector3">0.640000045 0.640000045 0.640000045</Data>
-        <Data Key="EmissiveColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
-        <Data Key="Alpha" Type="float">1</Data>
-        <Data Key="SpecularColor" Type="Framework:Vector3">0.5 0.5 0.5</Data>
-        <Data Key="SpecularPower" Type="float">12.3</Data>
+        <Data Key="Effect">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\VsGraphics\Assets\Effects\Lambert.dgsl" Desc="" Flags="9240" Id="Effect" Name="Effect" Type="9" Vis="1" xmlns="Trait" /&gt;</Data>
+        <Data Key="MaterialAmbient" Type="Framework:Vector4">0 0 0 0</Data>
+        <Data Key="MaterialDiffuse" Type="Framework:Vector4">1 1 1 1</Data>
+        <Data Key="Texture1">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Trait Data="" Desc="" Flags="8200" Id="Texture1" Name="Texture1" Type="9" Vis="4" xmlns="Trait" /&gt;</Data>
       </OpaqueData>
-      <Textures>
-        <Texture Key="Texture">
-          <OpaqueData>
-            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
-          </OpaqueData>
-          <Reference>#External3</Reference>
-        </Texture>
-      </Textures>
     </Resource>
   </Resources>
-  <ExternalReferences>
-    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">C:\Users\Silliman\Documents\Tutorials\Textures\Metallic Texture.png</ExternalReference>
-    <ExternalReference ID="#External2" TargetType="Graphics:TextureContent">C:\Users\Silliman\Documents\Feeding Frenzy\Textures\Black.png</ExternalReference>
-    <ExternalReference ID="#External3" TargetType="Graphics:TextureContent">C:\Users\Silliman\Documents\Tutorials\Textures\Tire Texture.png</ExternalReference>
-  </ExternalReferences>
 </XnaContent>

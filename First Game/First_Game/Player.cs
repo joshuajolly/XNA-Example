@@ -17,13 +17,21 @@ namespace First_Game
 		float wheelRotation;
 		Vector3 rotation;
 		Vector3 camPos;
+		float velocity = 1;
 
-		Matrix view;
+		public Matrix view;
 		Matrix[] boneTransformations;
+
+		public BoundingBox box;
 
 		public Player(Vector3 position)
 		{
 			camPos = new Vector3(position.X,position.Y + 7,position.Z-15);
+
+			pos = position;
+
+			box = new BoundingBox(new Vector3(position.X-2, position.Y, position.Z-2), new Vector3(4,4,4));
+
 			rotation = Vector3.Zero;
 		}
 
@@ -32,10 +40,8 @@ namespace First_Game
 			model = c.Load<Model>("Car");
 		}
 
-		public void update()
+		public void update()//BoundingBox referenceBox)
 		{
-			wheelRotation += .01f;
-
 			KeyboardState keyState= Keyboard.GetState();
 
 			if (keyState.IsKeyDown(Keys.Left))
@@ -48,6 +54,20 @@ namespace First_Game
 				rotation.Y -= .05f;
 			}
 
+			if (keyState.IsKeyDown(Keys.Up))
+			{
+				pos.X += velocity * (float)Math.Sin(rotation.Y);
+				pos.Z += velocity * (float)Math.Cos(rotation.Y);
+				wheelRotation += .05f;
+			}
+
+			if (keyState.IsKeyDown(Keys.Down))
+			{
+				pos.X -= velocity * (float)Math.Sin(rotation.Y);
+				pos.Z -= velocity * (float)Math.Cos(rotation.Y);
+				wheelRotation -= .05f;
+			}
+
 			camPos.X = pos.X - 15 * (float)Math.Sin(rotation.Y);
 			camPos.Z = pos.Z - 15 * (float)Math.Cos(rotation.Y);
 
@@ -58,10 +78,15 @@ namespace First_Game
 
 		public void rotateWheels()
 		{
-			model.Bones[2].Transform = Matrix.CreateRotationX(wheelRotation) * Matrix.CreateTranslation(model.Bones[2].Transform.Translation);//translate before trotatie
-			model.Bones[10].Transform = Matrix.CreateRotationX(wheelRotation) * Matrix.CreateTranslation(model.Bones[10].Transform.Translation);//translate before trotatie
-			model.Bones[9].Transform = Matrix.CreateRotationX(wheelRotation) * Matrix.CreateTranslation(model.Bones[9].Transform.Translation);//translate before trotatie
-			model.Bones[8].Transform = Matrix.CreateRotationX(wheelRotation) * Matrix.CreateTranslation(model.Bones[8].Transform.Translation);//translate before trotatie
+		}
+
+		public bool processCollisions(BoundingBox otherBox,float DX, float DZ)
+		{
+			box = new BoundingBox(new Vector3(pos.X - 2 + DX, pos.Y, pos.Z - 2 + DZ), new Vector3(4, 4, 4));
+
+			if (box.Intersects(otherBox))
+				return true;
+			return false; 
 		}
 
 		public void draw(Matrix projection)
@@ -74,7 +99,7 @@ namespace First_Game
 			{
 				foreach (BasicEffect effect in mesh.Effects)
 				{
-					effect.World = boneTransformations[mesh.ParentBone.Index] * Matrix.CreateScale(2f) * Matrix.CreateRotationX(rotation.X) * Matrix.CreateRotationY(rotation.Y) * Matrix.CreateRotationZ(rotation.Z); //where transformations are going on //can also do matrix.createtranslation to move it around //set rotation.X to 0, etc.
+					effect.World = boneTransformations[mesh.ParentBone.Index] * Matrix.CreateScale(2f) * Matrix.CreateRotationX(rotation.X) * Matrix.CreateRotationY(rotation.Y) * Matrix.CreateRotationZ(rotation.Z) * Matrix.CreateTranslation(pos); //where transformations are going on //can also do matrix.createtranslation to move it around //set rotation.X to 0, etc.
 					effect.View = view;
 					effect.Projection = projection;
 					effect.EnableDefaultLighting();

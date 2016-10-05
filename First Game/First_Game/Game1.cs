@@ -21,6 +21,8 @@ namespace First_Game
 		Matrix projection;
 		Player p;
 
+		ReferencePoint rP;
+
 		public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -38,6 +40,8 @@ namespace First_Game
         protected override void LoadContent()
         {
 			projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.ToRadians(45f), graphics.GraphicsDevice.Viewport.AspectRatio, .1f, 1000f); //how far you can see is last
+
+			rP = new ReferencePoint(Content);
 
 			p.loadContent(Content);
 		}
@@ -64,6 +68,7 @@ namespace First_Game
         {
             GraphicsDevice.Clear(Color.Black);
 
+			rP.draw(projection, p.view);
 			p.draw(projection);
 
             base.Draw(gameTime);

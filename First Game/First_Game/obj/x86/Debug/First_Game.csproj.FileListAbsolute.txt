@@ -18,3 +18,21 @@ G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Car.xnb
 G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Metallic Texture_0.xnb
 G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Black_0.xnb
 G:\Programs\C#\First Game\First Game\First_Game\bin\x86\Debug\Content\Tire Texture_0.xnb
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\obj\x86\Debug\First_Game.exe
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\obj\x86\Debug\First_Game.pdb
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Content\Car.xnb
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\First_Game.exe
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\First_Game.pdb
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\obj\x86\Debug\First_Game.csprojResolveAssemblyReference.cache
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Content\Bullet.xnb

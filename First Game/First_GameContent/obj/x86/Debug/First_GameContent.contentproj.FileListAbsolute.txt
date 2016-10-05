@@ -1,1 +1,2 @@
 G:\Programs\C#\First Game\First Game\First_GameContent\obj\x86\Debug\First_GameContent.contentprojResolveAssemblyReference.cache
+C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_GameContent\obj\x86\Debug\First_GameContent.contentprojResolveAssemblyReference.cache
