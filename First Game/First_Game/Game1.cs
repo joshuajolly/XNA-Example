@@ -18,6 +18,7 @@ namespace First_Game
     {
         GraphicsDeviceManager graphics;
 		//need matrices
+		//is this working?
 		Matrix projection;
 		Player p;
 
