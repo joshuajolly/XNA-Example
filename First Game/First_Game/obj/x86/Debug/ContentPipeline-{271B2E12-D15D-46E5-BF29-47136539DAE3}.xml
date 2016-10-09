@@ -8,10 +8,10 @@
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Content\Car.xnb</Output>
-      <Time>2016-09-29T17:20:24.7197811-07:00</Time>
+      <Time>2016-10-05T17:03:26.1335101-07:00</Time>
       <Dependency>
         <Key>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\obj\x86\Debug\Car_0.xml</Key>
-        <Value>2016-09-29T17:20:27.2780132-07:00</Value>
+        <Value>2016-10-05T19:15:41.3578176-07:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -19,7 +19,7 @@
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\obj\x86\Debug\Car_0.xml</Output>
-      <Time>2016-09-29T17:20:24.7197811-07:00</Time>
+      <Time>2016-10-05T17:03:26.1335101-07:00</Time>
     </Item>
     <Item>
       <Source>Bullet.fbx</Source>
@@ -28,10 +28,10 @@
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\bin\x86\Debug\Content\Bullet.xnb</Output>
-      <Time>2016-09-29T18:17:33.1264631-07:00</Time>
+      <Time>2016-10-05T17:03:26.1335101-07:00</Time>
       <Dependency>
         <Key>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\obj\x86\Debug\Bullet_0.xml</Key>
-        <Value>2016-09-29T18:17:35.4705972-07:00</Value>
+        <Value>2016-10-05T19:15:41.6348334-07:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -39,7 +39,7 @@
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>C:\Users\victoria\Programs\C#\XNA-Example\First Game\First_Game\obj\x86\Debug\Bullet_0.xml</Output>
-      <Time>2016-09-29T18:17:33.1264631-07:00</Time>
+      <Time>2016-10-05T17:03:26.1335101-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

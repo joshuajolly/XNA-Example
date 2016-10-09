@@ -60,7 +60,7 @@ namespace First_Game
 				this.Exit();
             }
 
-			p.update();
+			p.update(rP.box); //public, remember?
 
 			base.Update(gameTime);
         }

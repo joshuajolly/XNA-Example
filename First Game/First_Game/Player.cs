@@ -19,10 +19,15 @@ namespace First_Game
 		Vector3 camPos;
 		float velocity = 1;
 
+		float DX;
+		float DZ;
+
+		float size = 10;
+
 		public Matrix view;
 		Matrix[] boneTransformations;
 
-		public BoundingBox box;
+		BoundingBox box;
 
 		public Player(Vector3 position)
 		{
@@ -30,7 +35,8 @@ namespace First_Game
 
 			pos = position;
 
-			box = new BoundingBox(new Vector3(position.X-2, position.Y, position.Z-2), new Vector3(4,4,4));
+			//make a square so it's always the same box around it.  It'll work constantly then.
+			box = new BoundingBox(new Vector3(pos.X - size / 2, pos.Y, pos.Z - size / 2), new Vector3(pos.X + size / 2, pos.Y + size, pos.Z + size / 2));//two corners, essentially
 
 			rotation = Vector3.Zero;
 		}
@@ -40,9 +46,11 @@ namespace First_Game
 			model = c.Load<Model>("Car");
 		}
 
-		public void update()//BoundingBox referenceBox)
+		public void update(BoundingBox referenceBox)
 		{
-			KeyboardState keyState= Keyboard.GetState();
+			Console.WriteLine("POS X: " + pos.X + " POS Y " + pos.Y + " POS Z " + pos.Z + "\n");
+
+			KeyboardState keyState = Keyboard.GetState();
 
 			if (keyState.IsKeyDown(Keys.Left))
 			{
@@ -56,17 +64,32 @@ namespace First_Game
 
 			if (keyState.IsKeyDown(Keys.Up))
 			{
-				pos.X += velocity * (float)Math.Sin(rotation.Y);
-				pos.Z += velocity * (float)Math.Cos(rotation.Y);
+				DX += velocity * (float)Math.Sin(rotation.Y);
+				DZ += velocity * (float)Math.Cos(rotation.Y);
 				wheelRotation += .05f;
 			}
-
-			if (keyState.IsKeyDown(Keys.Down))
+			else if (keyState.IsKeyDown(Keys.Down))
 			{
-				pos.X -= velocity * (float)Math.Sin(rotation.Y);
-				pos.Z -= velocity * (float)Math.Cos(rotation.Y);
+				DX = -velocity * (float)Math.Sin(rotation.Y);
+				DZ = -velocity * (float)Math.Cos(rotation.Y);
 				wheelRotation -= .05f;
 			}
+			else
+			{
+				DX = 0;
+				DZ = 0;
+			}
+
+			bool collisionX = processCollisions(referenceBox, DX, 0);
+			bool collisionZ = processCollisions(referenceBox, 0, DZ); //can alter outcome based on direction
+
+			if (collisionX)
+				DX = 0;
+			if (collisionZ)
+				DZ = 0;
+
+			pos.X += DX;
+			pos.Z += DZ;
 
 			camPos.X = pos.X - 15 * (float)Math.Sin(rotation.Y);
 			camPos.Z = pos.Z - 15 * (float)Math.Cos(rotation.Y);
@@ -86,11 +109,11 @@ namespace First_Game
 
 		public bool processCollisions(BoundingBox otherBox,float DX, float DZ)
 		{
-			box = new BoundingBox(new Vector3(pos.X - 2 + DX, pos.Y, pos.Z - 2 + DZ), new Vector3(4, 4, 4));
+			box = new BoundingBox(new Vector3(pos.X - size / 2 + DX, pos.Y, pos.Z - size / 2 + DZ), new Vector3(pos.X + size / 2 + DX, pos.Y + size, pos.Z + size / 2 + DZ));//two corners, essentially
 
 			if (box.Intersects(otherBox))
 				return true;
-			return false; 
+			return false;
 		}
 
 		public void draw(Matrix projection)

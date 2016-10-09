@@ -13,8 +13,11 @@ namespace First_Game
 		Model model;
 		Vector3 pos;
 		
-		Matrix[] bonetransformations;
+		//collisions
 		public BoundingBox box;
+		float size = 10;
+
+		Matrix[] bonetransformations;
 
 
 		public ReferencePoint(ContentManager c)
@@ -22,7 +25,7 @@ namespace First_Game
 			model = c.Load<Model>("Bullet");
 			Console.WriteLine("Loaded");
 			pos = new Vector3(20, 0, 20);
-			box = new BoundingBox(new Vector3(pos.X - 2, pos.Y, pos.Z - 2), new Vector3(4, 4, 4));
+			box = new BoundingBox(new Vector3(pos.X - size / 2, pos.Y, pos.Z - size / 2), new Vector3(pos.X + size / 2, pos.Y + size, pos.Z + size / 2));//two corners, essentially
 		}
 
 		public void draw(Matrix projection, Matrix view)
